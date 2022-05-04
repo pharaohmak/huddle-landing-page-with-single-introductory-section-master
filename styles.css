@@ -41,44 +41,62 @@ button {
 
 
 
-.container {  display: grid;
+.container {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "Header Header Header Header Empty Empty Empty Empty Empty"
-      "Empty1 Empty1 Empty1 Empty1 Empty1 Empty1 Empty1 Empty1 Empty1"
-      "Main-image Main-image Main-image Main-image Main-image Empty3 Empty3 Empty3 Empty3"
-      "Main-image Main-image Main-image Main-image Main-image Content Content Content Content"
-      "Main-image Main-image Main-image Main-image Main-image Content Content Content Content"
-      "Main-image Main-image Main-image Main-image Main-image Content Content Content Content"
-      "Main-image Main-image Main-image Main-image Main-image Empty4 Empty4 Empty4 Empty4"
-      "Empty2 Empty2 Empty2 Empty2 Empty2 Empty2 Footer Footer Footer"
-      ". . . . . . . . .";
-  }
-  
-  .Header { grid-area: Header;
- }
-  
-  .Empty { grid-area: Empty; }
-  
-  .Main-image { grid-area: Main-image; }
-  
-  .Content { grid-area: Content; }
-  
-  .Footer { grid-area: Footer; }
-  
-  .Empty2 { grid-area: Empty2; }
-  
-  .Empty4 { grid-area: Empty4; }
-  
-  .Empty1 { grid-area: Empty1; }
-  
-  .Empty3 { grid-area: Empty3; }
-  
+        "Header Header Header Header Empty Empty Empty Empty Empty"
+        "Empty1 Empty1 Empty1 Empty1 Empty1 Empty1 Empty1 Empty1 Empty1"
+        "Main-image Main-image Main-image Main-image Main-image Empty3 Empty3 Empty3 Empty3"
+        "Main-image Main-image Main-image Main-image Main-image Content Content Content Content"
+        "Main-image Main-image Main-image Main-image Main-image Content Content Content Content"
+        "Main-image Main-image Main-image Main-image Main-image Content Content Content Content"
+        "Main-image Main-image Main-image Main-image Main-image Empty4 Empty4 Empty4 Empty4"
+        "Empty2 Empty2 Empty2 Empty2 Empty2 Empty2 Footer Footer Footer"
+        ". . . . . . . . .";
+}
 
-  .social-links {
-      display: inline-flex;
-      justify-content: flex-end;
-    }
+.Header {
+    grid-area: Header;
+}
+
+.Empty {
+    grid-area: Empty;
+}
+
+.Main-image {
+    grid-area: Main-image;
+}
+
+.Content {
+    grid-area: Content;
+}
+
+.Footer {
+    grid-area: Footer;
+}
+
+.Empty2 {
+    grid-area: Empty2;
+}
+
+.Empty4 {
+    grid-area: Empty4;
+}
+
+.Empty1 {
+    grid-area: Empty1;
+}
+
+.Empty3 {
+    grid-area: Empty3;
+}
+
+
+.social-links {
+    display: inline-flex;
+    justify-content: flex-end;
+}
